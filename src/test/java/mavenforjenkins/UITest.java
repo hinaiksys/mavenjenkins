@@ -15,7 +15,7 @@ public class UITest
 
 	@Parameters("Browser")
 	@Test
-	public void startBrowser(@Optional("Chrome")
+	public void startBrowser(@Optional("Chrome"))
 	{
 		System.out.println("Parameter value is "+browserName);
 		WebDriver driver=null;
